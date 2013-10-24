@@ -1,0 +1,146 @@
+body {
+  font-family: cutive, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  background: #555;
+}
+a {
+  color: #00B7FF;
+}
+
+#joueur {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 90px;
+  width: 130px;
+  border-bottom-right-radius: 16px;
+  border-bottom: 2px solid #BBB;
+  border-right: 2px solid #BBB;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 12px;
+}
+
+#joueur.bleu {
+  background: #2060c8;
+}
+#joueur.rouge {
+  background: #b41212;
+}
+#joueur.vert {
+  background: #217d1d;
+}
+#joueur.jaune {
+  background: #d0c816;
+}
+#joueur.noir {
+  background: #1d1d1d;
+}
+
+#joueur .avatar {
+  width: 64px;
+}
+
+#joueur .wagons {
+  margin: 2px;
+}
+#joueur .wagons span {
+  vertical-align: top;
+  margin-left: 4px;
+}
+
+#joueur .points {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+  text-align: center;
+}
+
+.card {
+  margin: 5px;
+  width: 108px;
+}
+
+.card:hover {
+	-webkit-filter: contrast(1.5);
+	filter: contrast(1.5);
+}
+
+#cards {
+  position: fixed;
+  top: 100px;
+  left: 5px;
+}
+
+#cards div {
+  height: 66px;
+  margin: 5px;
+}
+
+#plateau {
+  position: relative;
+  max-width: 70%;
+  max-height: 80%;
+  margin-left: 150px;
+}
+
+#plateau img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#hand {
+  display: table;
+  margin: 0 auto;
+  bottom: 5px;
+  left: 200px;
+}
+
+#hand span {
+  position: relative;
+}
+
+#hand i {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0.8em;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFF;
+  text-shadow: -2px -2px 4px #000, 
+  				2px -2px 4px #000, 
+  			   -2px  2px 4px #000, 
+  			    2px  2px 4px #000;
+}
+
+#messages {
+	display: none;
+	position: fixed;
+	height: 50%;
+	width: 200px;
+	right: 0;
+	bottom: 0;
+	background: #DDD;
+	-webkit-box-shadow: 0 8px 6px 4px gray;
+	   -moz-box-shadow: 0 8px 6px 4px gray;
+	        box-shadow: 0 8px 6px 4px gray;
+}
+#messages h4 {
+	margin: 0.5em;
+	margin-left: 10px;
+	border-bottom: 2px solid #888;
+}
+#messages div {
+	margin-left: 5px;
+}
+#messages div .name {
+	color: darkblue;
+	font-style: italic;
+}
+
+
+

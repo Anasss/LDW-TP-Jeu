@@ -1,0 +1,26 @@
+
+jQuery(document).ready(function(){
+    
+    /** Les types (couleurs) de wagons (sans les "locomotives"). */
+    var wagons = ["blanc", "bleu", "jaune", "noir", 
+                  "orange", "rose", "rouge", "vert"];
+    /** Tous les types de cartes. */
+    var cartes = wagons.concat("locomotive");
+
+	$.get("jeu/Alain/cartes", function( data ) {
+      var i;
+        console.info("Cartes " + data);
+      for(i = 0; i < data.length; i++){
+        $('#hand').append('<img src="img/cartes/'+ cartes[data[i]] +'.jpg" class="card" />');
+      }
+    });
+
+    $.get("jeu", function( data ) {
+      var i;
+        console.info("Cartes " + data);
+      for(i = 0; i < data.length; i++){
+        $('#cards').append('<img src="img/cartes/'+ cartes[data[i]] +'.jpg" class="card" />');
+      }
+      $('#cards').append('<img src="img/cartes/dos.jpg" class="card" />');
+    });
+});

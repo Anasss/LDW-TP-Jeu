@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel='stylesheet' href='/css/accueil.css' />
+    
+    <script src="//use.edgefonts.net/cutive.js"></script>
+  </head>
+  <body>
+    <header>
+        <img class="logo" src="img/logo.png" alt="logo" />
+        <h1>Les aventuriers du rail Bretagne</h1>
+    </header>
+
+    <div id="content">
+        <section id="nom">
+          <div class="form-group">
+            <label for="inputNom">Nom</label>
+            <input type="text" class="form-control" id="inputNom" placeholder="Entrer le nom du joueur">             
+          </div>
+          <a id="btn_ajout_joueur" class="btn-primary">Ok</a>
+        </section>
+        <section id="parties" class="close">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Choisir une partie</h3>
+                </div>
+                <div class="panel-body" id="pan-body">
+                  <ul>
+                  Aucune partie
+                  </ul>
+                  <a id="creerPartie" class="btn btn-default">Créer une partie</a>
+                </div>
+              </div>
+            <a class="btn btn-primary">Jouer</a>
+        </section>
+    </div>
+    
+    <script src="/js/jquery-1.10.2.js"></script>
+    <SCRIPT type="text/javascript" src="js/ajaxjq.js"></SCRIPT>
+    
+  </body>
+</html>

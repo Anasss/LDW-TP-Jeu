@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  max-width: 900px;
+  min-width: 700px;
+  margin: 0 auto; 
+}
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+
+header {
+  padding: 1em;
+  background: #444;
+  color: #fff;
+}
+.logo {
+  width: 128px;
+  float: left;
+}
+header h1 {
+  margin-left: 160px;
+}
+
+#content {
+  margin: 2em auto;
+  width: 500px;
+}
+
+#parties {
+  margin-top: 1em;
+  width: 100%;
+}
+
+#creerPartie {
+  float: right;
+}
+
+
+

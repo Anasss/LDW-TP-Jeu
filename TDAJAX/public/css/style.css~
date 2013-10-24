@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.card {
+  margin: 5px;
+  width: 108px;
+}
+
+#cards {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+
+#cards .card {
+  display: block;
+}
+
+#plateau img {
+  position: fixed;
+  max-width: 90%;
+  max-height: 90%;
+  bottom: 80px;
+  left: 128px;
+}
+
+#hand {
+  position: fixed;
+  bottom: 5px;
+  left: 200px;
+}
+

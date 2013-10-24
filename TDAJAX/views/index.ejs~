@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div id="cards"></div>
+    <div id="plateau"></div>
+    <div id="hand"></div>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/dosiride.js"></script>
+  </body>
+</html>
